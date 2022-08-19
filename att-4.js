@@ -1,15 +1,15 @@
 function desenhandoTriangulo(valor) {
-    let aux = valor
+    let aux = 0
 
-    while (aux > 0) {
+    while (aux <= valor) {
         let triangulo = ''
         for (let index = 0; index < aux; index++) {
             triangulo += "*"
             
         }
         console.log(triangulo)
-        aux--
+        aux++
     }
 }
 
-desenhandoTriangulo(5)
+desenhandoTriangulo(7)
